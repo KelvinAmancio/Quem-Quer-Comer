@@ -270,30 +270,35 @@ public class FramePedido extends javax.swing.JInternalFrame {
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
         ops = opsdao.find(jComboBox1.getSelectedItem()+"");
         if(ops != null){
-            Object[] itensSegunda = {ops.getItemSegunda1(), ops.getItemSegunda2(), ops.getItemSegunda3()};
+            Object[] itensSegunda = {ops.getItemSegunda1(), ops.getItemSegunda2(), ops.getItemSegunda3(), null};
             jComboBox2.addItem(itensSegunda[0]);
             jComboBox2.addItem(itensSegunda[1]);
             jComboBox2.addItem(itensSegunda[2]);
+            jComboBox2.addItem(itensSegunda[3]);
             
-            Object[] itensTerca = {ops.getItemTerca1(), ops.getItemTerca2(), ops.getItemTerca3()};
+            Object[] itensTerca = {ops.getItemTerca1(), ops.getItemTerca2(), ops.getItemTerca3(), null};
             jComboBox3.addItem(itensTerca[0]);
             jComboBox3.addItem(itensTerca[1]);
             jComboBox3.addItem(itensTerca[2]);
+            jComboBox3.addItem(itensTerca[3]);
             
-            Object[] itensQuarta = {ops.getItemQuarta1(), ops.getItemQuarta2(), ops.getItemQuarta3()};
+            Object[] itensQuarta = {ops.getItemQuarta1(), ops.getItemQuarta2(), ops.getItemQuarta3(), null};
             jComboBox4.addItem(itensQuarta[0]);
             jComboBox4.addItem(itensQuarta[1]);
             jComboBox4.addItem(itensQuarta[2]);
+            jComboBox4.addItem(itensQuarta[3]);
             
-            Object[] itensQuinta = {ops.getItemQuinta1(), ops.getItemQuinta2(), ops.getItemQuinta3()};
+            Object[] itensQuinta = {ops.getItemQuinta1(), ops.getItemQuinta2(), ops.getItemQuinta3(), null};
             jComboBox5.addItem(itensQuinta[0]);
-            jComboBox5.addItem(itensQuarta[1]);
-            jComboBox5.addItem(itensQuarta[2]);
+            jComboBox5.addItem(itensQuinta[1]);
+            jComboBox5.addItem(itensQuinta[2]);
+            jComboBox5.addItem(itensQuinta[3]);
             
-            Object[] itensSexta = {ops.getItemSexta1(), ops.getItemSexta2(), ops.getItemSexta3()};
+            Object[] itensSexta = {ops.getItemSexta1(), ops.getItemSexta2(), ops.getItemSexta3(), null};
             jComboBox6.addItem(itensSexta[0]);
             jComboBox6.addItem(itensSexta[1]);
             jComboBox6.addItem(itensSexta[2]);
+            jComboBox6.addItem(itensSexta[3]);
                         
             JOptionPane.showMessageDialog(this, "Opções da semana encontradas");
         }else{

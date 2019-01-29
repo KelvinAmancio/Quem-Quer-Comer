@@ -230,6 +230,7 @@ public class FrameOpcoesSemana extends javax.swing.JInternalFrame {
             itemSexta2 = txtOpcao2.getText();
             itemSexta3 = txtOpcao3.getText();
         }
+        JOptionPane.showMessageDialog(this, "Opções do Dia Cadastradas com Sucesso!!!");
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
@@ -251,7 +252,7 @@ public class FrameOpcoesSemana extends javax.swing.JInternalFrame {
         ops.setItemSexta2(itemSexta2);
         ops.setItemSexta3(itemSexta3);
         opsdao.create(ops);
-        JOptionPane.showMessageDialog(this, "Opções da Semana Cadastrado com Sucesso!!!");
+        JOptionPane.showMessageDialog(this, "Opções da Semana Cadastradas com Sucesso!!!");
     }//GEN-LAST:event_jButton3ActionPerformed
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
