@@ -1,0 +1,8 @@
+Boa Tarde,
+na semana 21/01 a 25/01 vamos querer:
+  - Segunda: 2 marmitas: 1x Cafta, 0x Bife, 1x Steak
+  - Terça: 2 marmitas: 1x Frango, 0x Hambúrguer, 1x Salsicha
+  - Quarta: 2 marmitas: 1x Caneloni, 0x Filé, 1x Bolinho
+  - Quinta: 2 marmitas: 0x Costelinhas, 0x Calabresa, 2x Fígado
+  - Sexta: 2 marmitas: 1x Almôndegas, 0x Filé, 1x Linguiça
+Obrigado!
